@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<slideshow xsi:noNamespaceSchemaLocation="g1_schema_v1.4.4.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+
+  <documentinfo>
+ 	<heading>Image Test XML</heading>
+    <author>Callum Goddard</author>
+    <version>0.1</version>
+    <comment>This is to test the image module</comment>
+  </documentinfo>
+
+
+	<slide id="1">
+
+		<image path="150x320.jpg" x="100" y="150" width="100" height="100" onclick="-2" />
+		<image path="320x150.jpg" x="100" y="200" width="200" height="100" onclick="-2" />
+
+
+
+	</slide>
+
+	<slide id="2">
+
+		<image path="cookie.jpg" x="500" y="100" width="100" height="100" onclick="-1" />
+
+		<scrollpane x="50" y="50" width="400" height="200" backgroundcolor="#f0f0f0" backgroundalpha="0.5">
+				<text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="100" y="600">Feedback Text</text>
+				<image path="cookie.jpg" x="100" y="100" width="554" height="416" starttime="0" endtime="0"/>
+		</scrollpane>
+
+	</slide>
+
+	<slide id="3">
+		<image path="300x400.jpg" x="100" y="100" width="300" height="400" onclick="-2" />
+		<image path="400x300.png" x="500" y="100" width="400" height="300" onclick="-2" />
+	</slide>
+</slideshow>

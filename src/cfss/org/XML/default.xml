@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<slideshow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation='g1_schema_v1.4.4.xsd'>
+  <documentinfo>
+    <author>Crab Factory Software Solutions</author>
+    <version>1.0</version>
+    <comment>Default XML Presentation</comment>
+  </documentinfo>
+  <defaults>
+    <textdefault  fontname="Arial" fontsize="12" fontcolor="#000000" />
+    <slidedefault backgroundcolor="#ffffff" />
+  </defaults>
+
+  <slide id="1" backgroundcolor="#ffffff" duration="10000" nextslideid="0">
+     <image path="images/DefaultSlide.png" x="0" y="0" width="800" height="600" starttime="0" endtime="0"/>
+  </slide>
+
+</slideshow>

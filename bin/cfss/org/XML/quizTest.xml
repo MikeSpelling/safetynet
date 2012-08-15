@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<slideshow xsi:noNamespaceSchemaLocation="g1_schema_v1.4.4.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <documentinfo>
+  	<heading>SafetyNet First Aid</heading>
+    <author>Michael Tock</author>
+    <version>0.1</version>
+    <comment>SafetyNet First Aid Product Demonstation. Complies with schema.xsd</comment>
+  </documentinfo>
+  <defaults>
+    <textdefault  fontname="Arial" fontsize="12" fontcolor="#000000" backgroundcolor="#ffffff" backgroundalpha="0" />
+    <slidedefault backgroundcolor="#ffffff" />
+  </defaults>
+
+
+
+
+
+  <slide id="3" backgroundcolor="#ffffff" nextslideid="4">
+	<midi path="love.mid" loop="true" />
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="28" y="67" starttime="0" endtime="10">Wounds - Minor Laceration</text>
+    <image path="blueleds.png" x="239" y="130" width="554" height="416" starttime="0" endtime="0"/>
+
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="47" y="161" starttime="0" endtime="10">Apply pressure to the wound</text>
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="92" y="204" starttime="0" endtime="10">Raise the area of injury </text>
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="18" y="246" starttime="0" endtime="10">Appy a sterile, non fluffy dressing</text>
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="35" y="289" starttime="0" endtime="10">Lie the casualty down and treat</text>
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="178" y="330" starttime="0" endtime="10">for shock</text>
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="110" y="369" starttime="0" endtime="10">Call 999 for help.</text>
+
+    <text fontname="Arial" fontsize="12" fontcolor="#2E73DA" alpha="1.0" x="67" y="459" starttime="0" endtime="10">Embedded</text>
+    <text fontname="Arial" fontsize="12" fontcolor="#2E73DA" alpha="1.0" x="89" y="495" starttime="0" endtime="10">objects</text>
+    <!-- Termination -->
+	<circle x="400" y="400" fill="true" alpha="0.5" radius="100"/>
+    <shape x="51" y="448" fill="false" alpha="1" starttime="0" endtime="0" >
+      <shapepath x="0" y="10"/>
+      <shapepath x="10" y="0"/>
+      <shapepath x="125" y="0"/>
+      <shapepath x="135" y="10"/>
+      <shapepath x="135" y="50"/>
+      <shapepath x="125" y="60"/>
+      <shapepath x="10" y="60"/>
+      <shapepath x="0" y="50"/>
+      <shapepath x="0" y="10"/>
+    </shape>
+
+    <!-- SafetyNet First Aid Logo -->
+    <image path="blueleds.png" x="492" y="509" width="300" height="90" starttime="0" endtime="0"/>
+  </slide>
+
+
+
+  <slide id="4" backgroundcolor="#ffffff" duration="10000" nextslideid="5">
+  	<text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="27" y="66" starttime="0" endtime="0">Wounds - Minor Laceration</text>
+  	<video path="Iamlegend.avi" x="430" y="154" width="340" height="240" endtime="0" />
+    <image path="blueleds.png" x="0" y="153" width="405" height="447" starttime="0" endtime="0"/>
+
+	<!-- SafetyNet First Aid Logo -->
+    <image path="blueleds.png" x="492" y="509" width="300" height="90" starttime="0" endtime="0"/>
+  </slide>
+
+
+  <slide id="5" backgroundcolor="#ffffff" duration="10000" nextslideid="6">
+  	<text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="27" y="66" starttime="0" endtime="0">Wounds - slide5 </text>
+  	<video path="Iamlegend.avi" x="430" y="154" width="340" height="240" endtime="0" />
+    <image path="blueleds.png" x="0" y="153" width="405" height="447" starttime="0" endtime="0"/>
+
+	<!-- SafetyNet First Aid Logo -->
+    <image path="blueleds.png" x="492" y="509" width="300" height="90" starttime="0" endtime="0"/>
+  </slide>
+
+
+
+  <slide id="6" backgroundcolor="#ffffff" duration="50000" nextslideid="7">
+    <image path="blueleds.png" x="20" y="20" width="120" height="360" starttime="1000" endtime="50000"/>
+    <video path="Iamlegend.avi" x="100" y="100" width="200" height="100" endtime="0" />
+    <midi path="/audio/file_name.mid" starttime="10000" loop="true" />
+    <audio path="Yesterday.mp3" x="100" y="100" starttime="0" endtime="10000"/>
+
+  </slide>
+
+  <quizslide id="1" backgroundcolor="#ffffff" duration="10000" nextslideid="2">
+    <text fontname="Arial" fontsize="18" fontcolor="#000000" alpha="1.0" x="160" y="150" starttime="0" endtime="10">"Why do they inflict ecad on us aswell as sweng during the summer term?"</text>
+    <text fontname="verdana" fontsize="16" fontcolor="#000000" alpha="1" x="160" y="180" starttime="10000" endtime="0">Answer A</text>
+    <text fontname="verdana" fontsize="16" fontcolor="#000000" alpha="1" x="430" y="180" starttime="10000" endtime="0">Answer B</text>
+    <text fontname="verdana" fontsize="16" fontcolor="#000000" alpha="1" x="160" y="210" starttime="10000" endtime="0">Answer C</text>
+    <text fontname="verdana" fontsize="16" fontcolor="#000000" alpha="1" x="430" y="210" starttime="10000" endtime="0">Answer D</text>
+
+
+    <answerarea id="1" x="160" y="180" width="100" height="25" />
+    <answerarea id="2" x="430" y="180" width="100" height="25" />
+    <answerarea id="3" x="160" y="210" width="100" height="25" />
+    <answerarea id="4" x="430" y="210" width="100" height="25" />
+    <correctanswer id="1"/>
+    <scorelocation fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="600" y="400" backgroundcolor="#f0f0f0" backgroundalpha="0.5"/>
+    <correctlocation fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="100" y="450" backgroundcolor="#f0f0f0" backgroundalpha="0.5" />
+    <feedback>
+
+        <scrollpane x="0" y="400" width="590" height="200" backgroundcolor="#f0f0f0" backgroundalpha="0.5">
+            <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="100" y="100">Feedback Text</text>
+        </scrollpane>
+
+        <text x="500" y="500" onclick="2"> Next Slide!</text>
+      </feedback>
+
+
+  </quizslide>
+
+  <quizslide id="7" backgroundcolor="#ffffff" duration="10000" nextslideid="1">
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="100" y="100" starttime="0" endtime="10">Hello World</text>
+    <text fontname="verdana" fontsize="10.5" fontcolor="#aaff12" alpha="0.23" x="100" y="90" starttime="10000" endtime="15000"></text>
+    <audio path="Yesterday.mp3" x="100" y="100" starttime="0" endtime="10000"/>
+
+	<answerarea id="1" x="200" y="200" width="200" height="50" />
+	<answerarea id="2" x="200" y="200" width="200" height="50" />
+	<answerarea id="3" x="200" y="200" width="200" height="50" />
+	<answerarea id="4" x="200" y="200" width="200" height="50" />
+	<correctanswer id="1"/>
+	<scorelocation fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="600" y="400" backgroundcolor="#f0f0f0" backgroundalpha="0.5"/>
+	<correctlocation fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="650" y="400" backgroundcolor="#f0f0f0" backgroundalpha="0.5" />
+	<feedback>
+		<scrollpane x="50" y="50" width="400" height="400" backgroundcolor="#f0f0f0" backgroundalpha="0.5">
+			<text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="100" y="100">Feedback Text</text>
+			<audio path="Yesterday.mp3" x="100" y="100" starttime="0" endtime="10000"/>
+		</scrollpane>
+		<text x="500" y="500" onclick="2"> Next Slide!</text>
+		<text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="100" y="100">Wrong!</text>
+	</feedback>
+
+  </quizslide>
+
+  <quizslide id="2" backgroundcolor="#ffffff" duration="10000" nextslideid="3">
+    <text fontname="Arial" fontsize="18" fontcolor="#000000" alpha="1.0" x="160" y="150" starttime="0" endtime="10">"So why don't you work first time?"</text>
+    <text fontname="verdana" fontsize="16" fontcolor="#000000" alpha="1" x="160" y="180" starttime="10000" endtime="0">Answer A</text>
+    <text fontname="verdana" fontsize="16" fontcolor="#000000" alpha="1" x="430" y="180" starttime="10000" endtime="0">Answer B</text>
+    <text fontname="verdana" fontsize="16" fontcolor="#000000" alpha="1" x="160" y="210" starttime="10000" endtime="0">Answer C</text>
+    <text fontname="verdana" fontsize="16" fontcolor="#000000" alpha="1" x="430" y="210" starttime="10000" endtime="0">Answer D</text>
+
+
+    <answerarea id="1" x="160" y="180" width="100" height="25" />
+    <answerarea id="2" x="430" y="180" width="100" height="25" />
+    <answerarea id="3" x="160" y="210" width="100" height="25" />
+    <answerarea id="4" x="430" y="210" width="100" height="25" />
+    <correctanswer id="1"/>
+    <scorelocation fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="600" y="400" backgroundcolor="#f0f0f0" backgroundalpha="0.5"/>
+    <correctlocation fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="100" y="450" backgroundcolor="#f0f0f0" backgroundalpha="0.5" />
+    <feedback>
+
+        <scrollpane x="0" y="400" width="590" height="200" backgroundcolor="#f0f0f0" backgroundalpha="0.5">
+            <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="100" y="100">Feedback Text</text>
+        </scrollpane>
+
+        <text x="500" y="500" onclick="2"> Next Slide!</text>
+      </feedback>
+
+
+  </quizslide>
+
+
+    <section id="1" name="Primary Survey">
+    <section_slide id="2" name="Slide 1"/>
+    <section_slide id="3" name="Slide 2"/>
+  </section>
+    <section id="4" name="test">
+    <section_slide id="5" name="Slide 1"/>
+    <section_slide id="6" name="Slide 2"/>
+	<section_slide id="7" name="Quiz Slide"/>
+  </section>
+</slideshow>

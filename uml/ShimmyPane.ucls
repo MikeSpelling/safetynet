@@ -1,0 +1,58 @@
+<class-diagram version="0.9.86" icons="true" always-add-relationships="false" generalizations="false" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="false">  
+  <class corner="BOTTOM_RIGHT" language="java" name="cfss.org.safetynet.gui.ShimmyPane" project="SafetyNet" 
+    file="/SafetyNet/src/cfss/org/safetynet/gui/ShimmyPane.java" binary="false">    
+    <position x="471" y="195" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="cfss.org.safetynet.gui.SectionNavigation" project="SafetyNet" 
+    file="/SafetyNet/src/cfss/org/safetynet/gui/SectionNavigation.java" binary="false">    
+    <position x="160" y="612" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="cfss.org.safetynet.gui.MenuBar" project="SafetyNet" 
+    file="/SafetyNet/src/cfss/org/safetynet/gui/MenuBar.java" binary="false">    
+    <position x="460" y="603" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="cfss.org.safetynet.gui.CoverFlow" project="SafetyNet" 
+    file="/SafetyNet/src/cfss/org/safetynet/gui/CoverFlow.java" binary="false">    
+    <position x="768" y="619" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <generalization>    
+    <source project="SafetyNet" name="cfss.org.safetynet.gui.MenuBar" 
+      file="/SafetyNet/src/cfss/org/safetynet/gui/MenuBar.java" binary="false"/>    
+    <target project="SafetyNet" name="cfss.org.safetynet.gui.ShimmyPane" 
+      file="/SafetyNet/src/cfss/org/safetynet/gui/ShimmyPane.java" binary="false"/>  
+  </generalization>  
+  <generalization>    
+    <source project="SafetyNet" name="cfss.org.safetynet.gui.CoverFlow" 
+      file="/SafetyNet/src/cfss/org/safetynet/gui/CoverFlow.java" binary="false"/>    
+    <target project="SafetyNet" name="cfss.org.safetynet.gui.ShimmyPane" 
+      file="/SafetyNet/src/cfss/org/safetynet/gui/ShimmyPane.java" binary="false"/>  
+  </generalization>  
+  <generalization>    
+    <source project="SafetyNet" name="cfss.org.safetynet.gui.SectionNavigation" 
+      file="/SafetyNet/src/cfss/org/safetynet/gui/SectionNavigation.java" binary="false"/>    
+    <target project="SafetyNet" name="cfss.org.safetynet.gui.ShimmyPane" 
+      file="/SafetyNet/src/cfss/org/safetynet/gui/ShimmyPane.java" binary="false"/>  
+  </generalization>  
+  <classifier-display autosize="true" package="true" initial-value="false" signature="true" visibility="true">    
+    <attributes public="true" package="false" protected="true" private="true"/>    
+    <operations public="true" package="false" protected="false" private="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

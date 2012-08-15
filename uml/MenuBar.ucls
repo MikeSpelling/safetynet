@@ -1,0 +1,70 @@
+<class-diagram version="0.9.86" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="false">  
+  <class corner="BOTTOM_RIGHT" language="java" name="cfss.org.safetynet.gui.MenuBar" project="SafetyNet" 
+    file="/SafetyNet/src/cfss/org/safetynet/gui/MenuBar.java" binary="false">    
+    <position x="447" y="184" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="cfss.org.safetynet.gui.SoundControl" project="SafetyNet" 
+    file="/SafetyNet/src/cfss/org/safetynet/gui/SoundControl.java" binary="false">    
+    <position x="132" y="590" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="cfss.org.safetynet.gui.Transport" project="SafetyNet" 
+    file="/SafetyNet/src/cfss/org/safetynet/gui/Transport.java" binary="false">    
+    <position x="430" y="563" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="cfss.org.safetynet.gui.MenuList" project="SafetyNet" 
+    file="/SafetyNet/src/cfss/org/safetynet/gui/MenuList.java" binary="false">    
+    <position x="693" y="577" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <association>    
+    <source project="SafetyNet" name="cfss.org.safetynet.gui.MenuBar" 
+      file="/SafetyNet/src/cfss/org/safetynet/gui/MenuBar.java" binary="false" navigable="false">      
+      <attribute name="transportPanel"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="SafetyNet" name="cfss.org.safetynet.gui.Transport" 
+      file="/SafetyNet/src/cfss/org/safetynet/gui/Transport.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="SafetyNet" name="cfss.org.safetynet.gui.MenuBar" 
+      file="/SafetyNet/src/cfss/org/safetynet/gui/MenuBar.java" binary="false" navigable="false">      
+      <attribute name="soundPanel"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="SafetyNet" name="cfss.org.safetynet.gui.SoundControl" 
+      file="/SafetyNet/src/cfss/org/safetynet/gui/SoundControl.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="SafetyNet" name="cfss.org.safetynet.gui.MenuBar" 
+      file="/SafetyNet/src/cfss/org/safetynet/gui/MenuBar.java" binary="false" navigable="false">      
+      <attribute name="menu"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="SafetyNet" name="cfss.org.safetynet.gui.MenuList" 
+      file="/SafetyNet/src/cfss/org/safetynet/gui/MenuList.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" package="true" initial-value="false" signature="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="false" protected="false" private="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

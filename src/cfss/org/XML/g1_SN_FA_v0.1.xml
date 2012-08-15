@@ -1,0 +1,721 @@
+<?xml version="1.0"?>
+<slideshow xsi:noNamespaceSchemaLocation="g1_schema_v1.4.5.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <documentinfo>
+
+  <!--  **************************************************************  -->
+  <!--  **************************************************************  -->
+  <!--  ****                                ****    -->
+  <!--  ****                 FINAL PRESNETATION             ****    -->
+  <!--  ****                  Do *NOT* modify for testing           ****    -->
+  <!--  ****         Please ask MT First                ****    -->
+  <!--  ****                                ****    -->
+  <!--  **************************************************************  -->
+  <!--  **************************************************************  -->
+
+<heading>SafetyNet First Aid</heading>
+<author>Michael Tock</author>
+<version>0.1</version>
+<comment>SafetyNet First Aid Product Demonstation. Complies with schema.xsd</comment>
+</documentinfo>
+<defaults>
+    <textdefault  fontname="Arial" fontsize="12" fontcolor="#000000" backgroundcolor="#ffffff" backgroundalpha="0" />
+    <slidedefault backgroundcolor="#ffffff" />
+</defaults>
+
+
+<slide id="1" backgroundcolor="#ffffff" duration="0" nextslideid="2" previewpath="SlidePreviews/Slide1.png">
+    <image path="images/Background.jpg" x="0" y="0" width="800" height="600" starttime="0" endtime="0" onclick="-1"/>
+    <text fontname="Arial" fontsize="80" fontcolor="#000000" alpha="1.0" x="130" y="200">Primary Survey</text>
+</slide>
+
+
+<slide id="2" backgroundcolor="#ffffff" duration="0" nextslideid="3" previewpath="SlidePreviews/Slide2.png">
+    <image path="images/Background.jpg" x="0" y="0" width="800" height="600" starttime="0" endtime="0" onclick="-1"/>
+    <text fontname="Arial" fontsize="60" fontcolor="#000000" alpha="1.0" x="60" y="35" starttime="0" endtime="0">Primary Survey - DR ABC</text>
+
+    <!-- Termination -->
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="47" y="193" starttime="0" endtime="0">Start</text>
+    <shape x="32" y="187" fill="false" alpha="1" starttime="0" endtime="0">
+        <shapepath x="0" y="10"/>
+        <shapepath x="10" y="0"/>
+        <shapepath x="50" y="0"/>
+        <shapepath x="60" y="10"/>
+        <shapepath x="60" y="20"/>
+        <shapepath x="50" y="30"/>
+        <shapepath x="10" y="30"/>
+        <shapepath x="0" y="20"/>
+        <shapepath x="0" y="10"/>
+    </shape>
+
+    <!-- Arrow -->
+    <shape x="105" y="197" fill="true" alpha="1" starttime="0" endtime="0" thickness="2" color="#006600">
+        <shapepath x="0" y="5"/>
+        <shapepath x="20" y="5"/>
+        <shapepath x="15" y="0"/>
+        <shapepath x="15" y="10"/>
+        <shapepath x="20" y="5"/>
+    </shape>
+
+    <!-- Decision -->
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="158" y="185" starttime="0" endtime="0">Danger?</text>
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="156" y="200" starttime="0" endtime="0">Is it safe?</text>
+    <shape x="132" y="150" fill="false" alpha="1" starttime="0" endtime="0" >
+        <shapepath x="50" y="0"/>
+        <shapepath x="100" y="50"/>
+        <shapepath x="50" y="100"/>
+        <shapepath x="0" y="50"/>
+        <shapepath x="50" y="0"/>
+    </shape>
+
+    <!-- Arrow -->
+    <shape x="247" y="197" fill="true" alpha="1" starttime="0" endtime="0" thickness="2" color="#006600">
+        <shapepath x="0" y="5"/>
+        <shapepath x="20" y="5"/>
+        <shapepath x="15" y="0"/>
+        <shapepath x="15" y="10"/>
+        <shapepath x="20" y="5"/>
+    </shape>
+
+    <!-- Decision -->
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="294" y="193" starttime="0" endtime="0">Conscious?</text>
+    <shape x="280" y="150" fill="false" alpha="1" starttime="0" endtime="0" >
+        <shapepath x="50" y="0"/>
+        <shapepath x="100" y="50"/>
+        <shapepath x="50" y="100"/>
+        <shapepath x="0" y="50"/>
+        <shapepath x="50" y="0"/>
+    </shape>
+
+    <!-- Arrow -->
+    <shape x="389" y="197" fill="true" alpha="1" starttime="0" endtime="0" thickness="2" color="#cc0000">
+        <shapepath x="0" y="5"/>
+        <shapepath x="20" y="5"/>
+        <shapepath x="15" y="0"/>
+        <shapepath x="15" y="10"/>
+        <shapepath x="20" y="5"/>
+    </shape>
+
+    <!-- Action -->
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="430" y="193" starttime="0" endtime="0">Open Airway</text>
+    <shape x="421" y="188" fill="false" alpha="1" starttime="0" endtime="0" >
+        <shapepath x="0" y="0"/>
+        <shapepath x="93" y="0"/>
+        <shapepath x="93" y="26"/>
+        <shapepath x="0" y="26"/>
+        <shapepath x="0" y="0"/>
+    </shape>
+
+    <!-- Decision -->
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="578" y="193" starttime="0" endtime="0">Breathing?</text>
+    <shape x="558" y="150" fill="false" alpha="1" starttime="0" endtime="0" >
+        <shapepath x="50" y="0"/>
+        <shapepath x="100" y="50"/>
+        <shapepath x="50" y="100"/>
+        <shapepath x="0" y="50"/>
+        <shapepath x="50" y="0"/>
+    </shape>
+
+    <!-- Arrow -->
+    <shape x="532" y="197" fill="true" alpha="1" starttime="0" endtime="0" thickness="2" color="#006600">
+        <shapepath x="0" y="5"/>
+        <shapepath x="20" y="5"/>
+        <shapepath x="15" y="0"/>
+        <shapepath x="15" y="10"/>
+        <shapepath x="20" y="5"/>
+    </shape>
+
+    <!-- Termination -->
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="715" y="193" starttime="0" endtime="0">CPR</text>
+    <shape x="698" y="187" fill="false" alpha="1" starttime="0" endtime="0" >
+        <shapepath x="0" y="10"/>
+        <shapepath x="10" y="0"/>
+        <shapepath x="50" y="0"/>
+        <shapepath x="60" y="10"/>
+        <shapepath x="60" y="20"/>
+        <shapepath x="50" y="30"/>
+        <shapepath x="10" y="30"/>
+        <shapepath x="0" y="20"/>
+        <shapepath x="0" y="10"/>
+    </shape>
+
+
+    <!-- Arrow  -->
+    <shape x="670" y="197" fill="true" alpha="1" starttime="0" endtime="0" thickness="2" color="#cc0000">
+        <shapepath x="0" y="5"/>
+        <shapepath x="20" y="5"/>
+        <shapepath x="15" y="0"/>
+        <shapepath x="15" y="10"/>
+        <shapepath x="20" y="5"/>
+    </shape>
+
+    <!-- Decision -->
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="170" y="327" starttime="0" endtime="0">Can</text>
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="149" y="342" starttime="0" endtime="0">you make it</text>
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="168" y="357" starttime="0" endtime="0">safe?</text>
+    <shape x="132" y="300" fill="false" alpha="1" starttime="0" endtime="0" >
+        <shapepath x="50" y="0"/>
+        <shapepath x="100" y="50"/>
+        <shapepath x="50" y="100"/>
+        <shapepath x="0" y="50"/>
+        <shapepath x="50" y="0"/>
+    </shape>
+
+    <!-- Arrow Verticle -->
+    <shape x="179" y="264" fill="true" alpha="1" starttime="0" endtime="0" thickness="2" color="#cc0000">
+        <shapepath x="5" y="0"/>
+        <shapepath x="5" y="20"/>
+        <shapepath x="10" y="15"/>
+        <shapepath x="0" y="15"/>
+        <shapepath x="5" y="20"/>
+    </shape>
+
+    <!-- Arrow Verticle -->
+    <shape x="179" y="410" fill="true" alpha="1" starttime="0" endtime="0" thickness="2" color="#cc0000">
+        <shapepath x="5" y="0"/>
+        <shapepath x="5" y="20"/>
+        <shapepath x="10" y="15"/>
+        <shapepath x="0" y="15"/>
+        <shapepath x="5" y="20"/>
+    </shape>
+
+    <!-- Termination -->
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="316" y="307" starttime="0" endtime="0">Treat their injuries.</text>
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="322" y="322" starttime="0" endtime="0">Do they need an</text>
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="325" y="337" starttime="0" endtime="0">an ambulance</text>
+    <shape x="300" y="300" fill="false" alpha="1" starttime="0" endtime="0" >
+        <shapepath x="0" y="10"/>
+        <shapepath x="10" y="0"/>
+        <shapepath x="125" y="0"/>
+        <shapepath x="135" y="10"/>
+        <shapepath x="135" y="50"/>
+        <shapepath x="125" y="60"/>
+        <shapepath x="10" y="60"/>
+        <shapepath x="0" y="50"/>
+        <shapepath x="0" y="10"/>
+    </shape>
+
+
+<!-- Arrow Verticle -->
+    <shape x="328" y="264" fill="true" alpha="1" starttime="0" endtime="0" thickness="2" color="#006600">
+        <shapepath x="5" y="0"/>
+        <shapepath x="5" y="20"/>
+        <shapepath x="10" y="15"/>
+        <shapepath x="0" y="15"/>
+        <shapepath x="5" y="20"/>
+    </shape>
+
+    <!-- Termination -->
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="560" y="315" starttime="0" endtime="0">Recovery Position</text>
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="575" y="330" starttime="0" endtime="0">and call 999</text>
+    <shape x="541" y="300" fill="false" alpha="1" starttime="0" endtime="0" >
+        <shapepath x="0" y="10"/>
+        <shapepath x="10" y="0"/>
+        <shapepath x="125" y="0"/>
+        <shapepath x="135" y="10"/>
+        <shapepath x="135" y="50"/>
+        <shapepath x="125" y="60"/>
+        <shapepath x="10" y="60"/>
+        <shapepath x="0" y="50"/>
+        <shapepath x="0" y="10"/>
+    </shape>
+
+    <!-- Arrow Verticle -->
+    <shape x="605" y="264" fill="true" alpha="1" starttime="0" endtime="0" thickness="2" color="#006600">
+        <shapepath x="5" y="0"/>
+        <shapepath x="5" y="20"/>
+        <shapepath x="10" y="15"/>
+        <shapepath x="0" y="15"/>
+        <shapepath x="5" y="20"/>
+    </shape>
+
+    <!-- Termination -->
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="123" y="465" starttime="0" endtime="0">999 - Stand back and</text>
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="151" y="483" starttime="0" endtime="0">call for help</text>
+    <shape x="115" y="450" fill="false" alpha="1" starttime="0" endtime="0" >
+        <shapepath x="0" y="10"/>
+        <shapepath x="10" y="0"/>
+        <shapepath x="125" y="0"/>
+        <shapepath x="135" y="10"/>
+        <shapepath x="135" y="50"/>
+        <shapepath x="125" y="60"/>
+        <shapepath x="10" y="60"/>
+        <shapepath x="0" y="50"/>
+        <shapepath x="0" y="10"/>
+    </shape>
+
+    <text fontname="Arial" fontsize="32" fontcolor="#000000" alpha="1.0" x="370" y="419" starttime="0" endtime="0">Always follow this chart</text>
+    <text fontname="Arial" fontsize="32" fontcolor="#000000" alpha="1.0" x="360" y="459" starttime="0" endtime="0">when you treat a casualty.</text>
+
+    <!-- SafetyNet First Aid Logo -->
+    <image path="images/SNFA.png" x="492" y="509" width="300" height="90" starttime="0" endtime="0"/>
+</slide>
+
+
+
+<slide id="3" backgroundcolor="#ffffff" duration="0" nextslideid="4" previewpath="SlidePreviews/Slide3.png">
+    <image path="images/Background.jpg" x="0" y="0" width="800" height="600" starttime="0" endtime="0" onclick="-1"/>
+    <text fontname="Arial" fontsize="60" fontcolor="#000000" alpha="1.0" x="120" y="35" starttime="0" endtime="0">Breathing - Overview</text>
+
+    <image path="images/Lungs.jpeg" x="37" y="164" width="356" height="392" starttime="0" endtime="0" onclick="-2"/>
+
+    <text fontname="Arial" fontsize="31" fontcolor="#000000" alpha="1.0" x="437" y="172" starttime="0" endtime="0">Stethoscope recordings</text>
+    <text fontname="Arial" fontsize="31" fontcolor="#000000" alpha="1.0" x="464" y="212" starttime="0" endtime="0">of normal breathing</text>
+
+    <!-- Bronchial -->
+    <audio path="audio/Bronchial_Norm.wav" x="470" y="255" starttime="0" endtime="0" />
+    <!-- Trachial -->
+    <audio path="audio/Trachial_Norm.wav" x="470" y="290" starttime="0" endtime="0" />
+
+    <text fontname="Arial" fontsize="31" fontcolor="#000000" alpha="1.0" x="441" y="349" starttime="0" endtime="0">Abnormal stethoscope</text>
+    <text fontname="Arial" fontsize="31" fontcolor="#000000" alpha="1.0" x="479" y="390" starttime="0" endtime="0">breathing sounds</text>
+
+    <!-- Fine Rales / Crackles -->
+    <audio path="audio/Crackles.wav" x="470" y="440" starttime="0" endtime="0" />
+    <!-- Stridor -->
+    <audio path="audio/Stridor.wav" x="470" y="475" starttime="0" endtime="0" />
+
+    <!-- SafetyNet First Aid Logo -->
+    <image path="images/SNFA.png" x="492" y="509" width="300" height="90" starttime="0" endtime="0"/>
+</slide>
+
+<slide id="4" backgroundcolor="#ffffff" duration="0" nextslideid="5" previewpath="SlidePreviews/Slide4.png">
+    <image path="images/Background.jpg" x="0" y="0" width="800" height="600" starttime="0" endtime="0" onclick="-1"/>
+    <text fontname="Arial" fontsize="80" fontcolor="#000000" alpha="1.0" x="250" y="200" starttime="0" endtime="0">Wounds</text>
+    <!-- SafetyNet First Aid Logo -->
+    <image path="images/SNFA.png" x="492" y="509" width="300" height="90" starttime="0" endtime="0"/>
+</slide>
+
+<slide id="5" backgroundcolor="#ffffff" nextslideid="6" previewpath="SlidePreviews/Slide5.png">
+    <image path="images/Background.jpg" x="0" y="0" width="800" height="600" starttime="0" endtime="0" onclick="-1"/>
+
+
+    <text fontname="Arial" fontsize="60" fontcolor="#000000" alpha="1.0" x="28" y="35" starttime="0" endtime="0">Wounds - Minor Laceration</text>
+    <image path="images/Bleed lie down.png" x="239" y="130" width="554" height="416" starttime="0" endtime="0"/>
+
+    <text fontname="Arial" fontsize="31" fontcolor="#000000" alpha="1.0" x="50" y="161" starttime="0" endtime="0">Apply pressure to the wound</text>
+    <text fontname="Arial" fontsize="31" fontcolor="#000000" alpha="1.0" x="95" y="204" starttime="0" endtime="0">Raise the area of injury </text>
+    <text fontname="Arial" fontsize="31" fontcolor="#000000" alpha="1.0" x="21" y="246" starttime="0" endtime="0">Apply a sterile, non fluffy dressing</text>
+    <text fontname="Arial" fontsize="31" fontcolor="#000000" alpha="1.0" x="38" y="289" starttime="0" endtime="0">Lie the casualty down and treat</text>
+    <text fontname="Arial" fontsize="31" fontcolor="#000000" alpha="1.0" x="181" y="330" starttime="0" endtime="0">for shock</text>
+    <text fontname="Arial" fontsize="31" fontcolor="#000000" alpha="1.0" x="128" y="369" starttime="0" endtime="0">Call 999 for help.</text>
+    <text fontname="Arial" fontsize="22" fontcolor="#2E73DA" alpha="1.0" x="67" y="453" starttime="0" endtime="0" onclick="6">Embedded</text>
+    <text fontname="Arial" fontsize="22" fontcolor="#2E73DA" alpha="1.0" x="83" y="478" starttime="0" endtime="0" onclick="6">objects</text>
+    <!-- Termination -->
+    <shape x="51" y="448" fill="false" alpha="1" starttime="0" endtime="0" color="#2E73DA" onclick="6" >
+        <shapepath x="0" y="10"/>
+        <shapepath x="10" y="0"/>
+        <shapepath x="125" y="0"/>
+        <shapepath x="135" y="10"/>
+        <shapepath x="135" y="50"/>
+        <shapepath x="125" y="60"/>
+        <shapepath x="10" y="60"/>
+        <shapepath x="0" y="50"/>
+        <shapepath x="0" y="10"/>
+    </shape>
+
+    <!-- SafetyNet First Aid Logo -->
+    <image path="images/SNFA.png" x="492" y="509" width="300" height="90" starttime="0" endtime="0"/>
+</slide>
+
+
+
+<slide id="6" backgroundcolor="#ffffff" duration="0" nextslideid="7" previewpath="SlidePreviews/Slide6.png">
+    <image path="images/Background.jpg" x="0" y="0" width="800" height="600" starttime="0" endtime="0" onclick="-1"/>
+    <text fontname="Arial" fontsize="60" fontcolor="#000000" alpha="1.0" x="40" y="35" starttime="0" endtime="0">Wounds - Minor Laceration</text>
+    <image path="images/Bleed bandage.png" x="0" y="153" width="405" height="447" starttime="0" endtime="0"/>
+    <video path="video/BandageVid.avi" x="430" y="154" width="340" height="240" endtime="0" starttime="0" autoplay="true" />
+
+
+    <!-- *** Comments to go here that are in sink with the video... *** -->
+
+    <!-- *** Comments to go here that are in sink with the video... *** -->
+
+    <!-- SafetyNet First Aid Logo -->
+    <!--<image path="images/SNFA.png" x="492" y="509" width="300" height="90" starttime="0" endtime="0"/>
+-->
+</slide>
+
+
+
+
+
+<slide id="7" backgroundcolor="#ffffff" duration="0" nextslideid="8" previewpath="SlidePreviews/Slide7.png">
+    <image path="images/Background.jpg" x="0" y="0" width="800" height="600" starttime="0" endtime="0" onclick="-1"/>
+    <text fontname="Arial" fontsize="80" fontcolor="#000000" alpha="1.0" x="310" y="200" starttime="0" endtime="0">CPR</text>
+    <!-- SafetyNet First Aid Logo -->
+    <image path="images/SNFA.png" x="492" y="509" width="300" height="90" starttime="0" endtime="0"/>
+</slide>
+
+
+
+<slide id="8" backgroundcolor="#ffffff" duration="50000" nextslideid="9" previewpath="SlidePreviews/Slide8.png">
+    <image path="images/Background.jpg" x="0" y="0" width="800" height="600" starttime="0" endtime="0" onclick="-1"/>
+    <text fontname="Arial" fontsize="60" fontcolor="#000000" alpha="1.0" x="146" y="35" starttime="0" endtime="0">CPR - Introduction</text>
+
+    <text fontname="Arial" fontsize="28" fontcolor="#000000" alpha="1.0" x="146" y="321" starttime="0" endtime="0">Target rate is 100 compressions per minute</text>
+    <text fontname="Arial" fontsize="28" fontcolor="#000000" alpha="1.0" x="140" y="352" starttime="0" endtime="0">(30 : 2 : 30 : 2 : 30 : 2) repeat once a minute</text>
+
+    <text fontname="Arial" fontsize="22" fontcolor="#000000" alpha="1.0" x="174" y="416" starttime="0" endtime="0">Only stop if:</text>
+    <text fontname="Arial" fontsize="22" fontcolor="#000000" alpha="1.0" x="52" y="449" starttime="0" endtime="0">Told to do so by the ambulance crew</text>
+    <text fontname="Arial" fontsize="22" fontcolor="#000000" alpha="1.0" x="96" y="481" starttime="0" endtime="0">You are too tired to carry on</text>
+    <text fontname="Arial" fontsize="22" fontcolor="#000000" alpha="1.0" x="125" y="512" starttime="0" endtime="0">Its not safe to carry on</text>
+    <text fontname="Arial" fontsize="22" fontcolor="#000000" alpha="1.0" x="104" y="543" starttime="0" endtime="0">They start breathing again</text>
+
+    <!-- Termination -->
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="41" y="186" starttime="0" endtime="0">Not</text>
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="25" y="202" starttime="0" endtime="0">Breathing</text>
+    <shape x="17" y="178" fill="false" alpha="1" starttime="0" endtime="0" >
+        <shapepath x="0" y="10"/>
+        <shapepath x="10" y="0"/>
+        <shapepath x="65" y="0"/>
+        <shapepath x="75" y="10"/>
+        <shapepath x="75" y="35"/>
+        <shapepath x="65" y="45"/>
+        <shapepath x="10" y="45"/>
+        <shapepath x="0" y="35"/>
+        <shapepath x="0" y="10"/>
+    </shape>
+
+    <!-- Arrow -->
+    <shape x="102" y="196" fill="true" alpha="1" starttime="0" endtime="0" thickness="2" color="#000000">
+        <shapepath x="0" y="5"/>
+        <shapepath x="20" y="5"/>
+        <shapepath x="15" y="0"/>
+        <shapepath x="15" y="10"/>
+        <shapepath x="20" y="5"/>
+    </shape>
+
+    <!-- Action -->
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="149" y="186" starttime="0" endtime="0">Call for an</text>
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="149" y="202" starttime="0" endtime="0">Ambulance</text>
+    <shape x="133" y="178" fill="false" alpha="1" starttime="0" endtime="0" >
+        <shapepath x="0" y="0"/>
+        <shapepath x="95" y="0"/>
+        <shapepath x="95" y="45"/>
+        <shapepath x="0" y="45"/>
+        <shapepath x="0" y="0"/>
+    </shape>
+
+    <!-- Arrow -->
+    <shape x="240" y="196" fill="true" alpha="1" starttime="0" endtime="0" thickness="2" color="#000000">
+        <shapepath x="0" y="5"/>
+        <shapepath x="20" y="5"/>
+        <shapepath x="15" y="0"/>
+        <shapepath x="15" y="10"/>
+        <shapepath x="20" y="5"/>
+    </shape>
+
+    <!-- Action -->
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="295" y="186" starttime="0" endtime="0">30 Chest</text>
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="283" y="202" starttime="0" endtime="0">Compressions</text>
+    <shape x="276" y="178" fill="false" alpha="1" starttime="0" endtime="0" >
+    <shapepath x="0" y="0"/>
+    <shapepath x="95" y="0"/>
+    <shapepath x="95" y="45"/>
+    <shapepath x="0" y="45"/>
+    <shapepath x="0" y="0"/>
+    </shape>
+
+    <!-- Arrow -->
+    <shape x="370" y="196" fill="true" alpha="1" starttime="0" endtime="0" thickness="2" color="#000000">
+        <shapepath x="0" y="5"/>
+        <shapepath x="20" y="5"/>
+        <shapepath x="15" y="0"/>
+        <shapepath x="15" y="10"/>
+        <shapepath x="20" y="5"/>
+    </shape>
+
+    <!-- Action -->
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="424" y="186" starttime="0" endtime="0">2 Rescue</text>
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="428" y="202" starttime="0" endtime="0">Breaths</text>
+    <shape x="403" y="178" fill="false" alpha="1" starttime="0" endtime="0" >
+        <shapepath x="0" y="0"/>
+        <shapepath x="95" y="0"/>
+        <shapepath x="95" y="45"/>
+        <shapepath x="0" y="45"/>
+        <shapepath x="0" y="0"/>
+    </shape>
+
+    <!-- Arrow -->
+    <shape x="510" y="196" fill="true" alpha="1" starttime="0" endtime="0" thickness="2" color="#000000">
+        <shapepath x="0" y="5"/>
+        <shapepath x="20" y="5"/>
+        <shapepath x="15" y="0"/>
+        <shapepath x="15" y="10"/>
+        <shapepath x="20" y="5"/>
+    </shape>
+
+    <!-- Decision -->
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="557" y="194" starttime="0" endtime="0">Breathing?</text>
+    <shape x="537" y="150" fill="false" alpha="1" starttime="0" endtime="0" >
+        <shapepath x="50" y="0"/>
+        <shapepath x="100" y="50"/>
+        <shapepath x="50" y="100"/>
+        <shapepath x="0" y="50"/>
+        <shapepath x="50" y="0"/>
+    </shape>
+
+    <!-- Arrow -->
+    <shape x="650" y="196" fill="true" alpha="1" starttime="0" endtime="0" thickness="2" color="#006600">
+        <shapepath x="0" y="5"/>
+        <shapepath x="20" y="5"/>
+        <shapepath x="15" y="0"/>
+        <shapepath x="15" y="10"/>
+        <shapepath x="20" y="5"/>
+    </shape>
+
+    <!-- Termination -->
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="700" y="186" starttime="0" endtime="0">Wait for</text>
+    <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="685" y="202" starttime="0" endtime="0">help to arrive</text>
+    <shape x="679" y="178" fill="false" alpha="1" starttime="0" endtime="0" >
+        <shapepath x="0" y="10"/>
+        <shapepath x="10" y="0"/>
+        <shapepath x="75" y="0"/>
+        <shapepath x="85" y="10"/>
+        <shapepath x="85" y="35"/>
+        <shapepath x="75" y="45"/>
+        <shapepath x="10" y="45"/>
+        <shapepath x="0" y="35"/>
+        <shapepath x="0" y="10"/>
+    </shape>
+
+
+    <!-- Arrow Loop -->
+    <shape x="320" y="230" fill="true" alpha="1" starttime="0" endtime="0" thickness="2" color="#cc0000">
+        <shapepath x="5" y="0"/>
+        <shapepath x="10" y="5"/>
+        <shapepath x="0" y="5"/>
+        <shapepath x="5" y="0"/>
+        <shapepath x="5" y="60"/>
+    </shape>
+
+    <shape x="325" y="290" fill="true" alpha="1" starttime="0" endtime="0" thickness="2" color="#cc0000">
+        <shapepath x="0" y="0"/>
+        <shapepath x="265" y="0"/>
+    </shape>
+
+    <shape x="590" y="260" fill="true" alpha="1" starttime="0" endtime="0" thickness="2" color="#cc0000">
+        <shapepath x="0" y="0"/>
+        <shapepath x="0" y="30"/>
+    </shape>
+
+
+
+    <!-- SafetyNet First Aid Logo -->
+    <image path="images/SNFA.png" x="492" y="509" width="300" height="90" starttime="0" endtime="0"/>
+</slide>
+
+
+<slide id="9" backgroundcolor="#ffffff" duration="0" nextslideid="10" previewpath="SlidePreviews/Slide9.png">
+    <image path="images/Background.jpg" x="0" y="0" width="800" height="600" starttime="0" endtime="0" onclick="-1"/>
+    <text fontname="Arial" fontsize="60" fontcolor="#000000" alpha="1.0" x="122" y="35" starttime="0" endtime="0">CPR - Compressions</text>
+    <text fontname="Arial" fontsize="26" fontcolor="#000000" alpha="1.0" x="50" y="120" starttime="0" endtime="0">Place hands on casualties chest</text>
+    <text fontname="Arial" fontsize="26" fontcolor="#000000" alpha="1.0" x="40" y="150" starttime="0" endtime="0">Target: 100 compressions a minute</text>
+    <image path="images/Resus Hand Pos 1.png" x="18" y="325" width="430" height="275" starttime="0" endtime="0"/>
+    <image path="images/Resus Hand Pos 2.png" x="489" y="128" width="340" height="433" starttime="0" endtime="0"/>
+    <image path="images/Resus Hand Pos 3.png" x="468" y="260" width="110" height="76" starttime="0" endtime="0"/>
+
+    <circle x="620" y="370" color="#000000" alpha="1" fill="false" starttime="0" endtime="0" radius="50" thickness="2"/>
+
+    <shape x="578" y="336" fill="true" alpha="1" starttime="0" endtime="0" thickness="2" color="#000000">
+        <shapepath x="0" y="0"/>
+        <shapepath x="50" y="50"/>
+    </shape>
+
+    <midi path="midi/CPR.mid" starttime="0" loop="true" />
+    <!-- SafetyNet First Aid Logo -->
+    <image path="images/SNFA.png" x="492" y="509" width="300" height="90" starttime="0" endtime="0"/>
+</slide>
+
+
+<slide id="10" backgroundcolor="#ffffff" duration="0" nextslideid="11" previewpath="SlidePreviews/Slide10.png">
+    <image path="images/Background.jpg" x="0" y="0" width="800" height="600" starttime="0" endtime="0" onclick="-1"/>
+    <text fontname="Arial" fontsize="60" fontcolor="#000000" alpha="1.0" x="107" y="35" starttime="0" endtime="0">CPR - Rescue Breaths</text>
+
+    <text fontname="Arial" fontsize="26" fontcolor="#000000" alpha="1.0" x="464" y="327" starttime="0" endtime="0">Tilt the head back</text>
+    <text fontname="Arial" fontsize="26" fontcolor="#000000" alpha="1.0" x="440" y="372" starttime="0" endtime="0">Hold the nose closed</text>
+    <text fontname="Arial" fontsize="26" fontcolor="#000000" alpha="1.0" x="485" y="400" starttime="0" endtime="0">and lift the jaw</text>
+    <text fontname="Arial" fontsize="26" fontcolor="#000000" alpha="1.0" x="471" y="454" starttime="0" endtime="0">Give two breaths</text>
+
+    <image path="images/Resus Breath Pos1.png" x="25" y="110" width="300" height="215" starttime="0" endtime="0"/>
+    <image path="images/Resus Breath Pos2.png" x="413" y="100" width="330" height="245" starttime="0" endtime="0"/>
+    <image path="images/Resus Breath Pos3.png" x="14" y="321" width="334" height="237" starttime="0" endtime="0"/>
+
+    <!-- Arrow -->
+    <shape x="335" y="225" fill="true" alpha="1" starttime="0" endtime="0" thickness="2" color="#000000">
+        <shapepath x="0" y="5"/>
+        <shapepath x="70" y="5"/>
+        <shapepath x="65" y="0"/>
+        <shapepath x="65" y="10"/>
+        <shapepath x="70" y="5"/>
+    </shape>
+
+
+    <!-- Arrow -->
+    <shape x="330" y="280" fill="true" alpha="1" starttime="0" endtime="0" thickness="2" color="#000000">
+        <shapepath x="0" y="100"/>
+        <shapepath x="0" y="95"/>
+        <shapepath x="5" y="100"/>
+        <shapepath x="0" y="100"/>
+        <shapepath x="100" y="0"/>
+    </shape>
+
+    <!-- SafetyNet First Aid Logo -->
+    <image path="images/SNFA.png" x="492" y="509" width="300" height="90" starttime="0" endtime="0"/>
+</slide>
+
+
+<slide id="11" backgroundcolor="#ffffff" duration="0" nextslideid="12" previewpath="SlidePreviews/Slide11.png">
+    <image path="images/Background.jpg" x="0" y="0" width="800" height="600" starttime="0" endtime="0" onclick="-1"/>
+    <text fontname="Arial" fontsize="60" fontcolor="#000000" alpha="1.0" x="232" y="35" starttime="0" endtime="0">CPR - AED</text>
+
+    <text fontname="Arial" fontsize="30" fontcolor="#000000" alpha="1.0" x="410" y="160" starttime="0" endtime="0">Additional content can be</text>
+    <text fontname="Arial" fontsize="30" fontcolor="#000000" alpha="1.0" x="380" y="200" starttime="0" endtime="0">purchased from the SafetyNet </text>
+    <text fontname="Arial" fontsize="30" fontcolor="#2E73DA" alpha="1.0" x="530" y="450" starttime="0" endtime="0" onclick="0" onclickurl="www.voltnet.co.uk/sweng">Web Store</text>
+
+    <image path="images/AED.png" x="10" y="130" width="555" height="415" starttime="0" endtime="0"/>
+
+    <!-- SafetyNet First Aid Logo -->
+    <image path="images/SNFA.png" x="492" y="509" width="300" height="90" starttime="0" endtime="0"/>
+</slide>
+
+<slide id="12" backgroundcolor="#ffffff" duration="0" nextslideid="13" previewpath="SlidePreviews/Slide12.png">
+    <image path="images/Background.jpg" x="0" y="0" width="800" height="600" starttime="0" endtime="0" onclick="-1"/>
+    <text fontname="Arial" fontsize="60" fontcolor="#000000" alpha="1.0" x="107" y="35" starttime="0" endtime="0">CPR - Medical Gasses</text>
+
+    <text fontname="Arial" fontsize="30" fontcolor="#000000" alpha="1.0" x="380" y="170" starttime="0" endtime="0">Additional content can be</text>
+    <text fontname="Arial" fontsize="30" fontcolor="#000000" alpha="1.0" x="350" y="210" starttime="0" endtime="0">purchased from the SafetyNet </text>
+    <text fontname="Arial" fontsize="30" fontcolor="#2E73DA" alpha="1.0" x="470" y="320" starttime="0" endtime="0" onclick="0" onclickurl="www.voltnet.co.uk/sweng">Web Store</text>
+
+    <image path="images/BVM.jpg" x="30" y="130" width="250" height="200" starttime="0" endtime="0"/>
+    <image path="images/O2Bag.jpg" x="30" y="360" width="250" height="200" starttime="0" endtime="0"/>
+
+    <!-- SafetyNet First Aid Logo -->
+    <image path="images/SNFA.png" x="492" y="509" width="300" height="90" starttime="0" endtime="0"/>
+</slide>
+
+
+
+
+<slide id="13" backgroundcolor="#ffffff" duration="0" nextslideid="14" previewpath="SlidePreviews/Slide13.jpg">
+    <image path="images/Background.jpg" x="0" y="0" width="800" height="600" starttime="0" endtime="0" onclick="-1"/>
+
+    <text fontname="Arial" fontsize="80" fontcolor="#000000" alpha="1.0" x="310" y="200" starttime="0" endtime="0">Quiz</text>
+
+    <!-- SafetyNet First Aid Logo -->
+    <image path="images/SNFA.png" x="492" y="509" width="300" height="90" starttime="0" endtime="0"/>
+</slide>
+
+
+
+<quizslide id="14" backgroundcolor="#ffffff" duration="10000" nextslideid="15">
+
+    <!--<image path="images/Background.jpg" x="0" y="0" width="800" height="600" starttime="0" endtime="0" onclick="-1"/>-->
+
+    <text fontname="Arial" fontsize="18" fontcolor="#000000" alpha="1.0" x="160" y="150" starttime="0" endtime="0">"So why don't you work first time?"</text>
+    <text fontname="verdana" fontsize="16" fontcolor="#000000" alpha="1" x="160" y="180" starttime="500" endtime="0">Answer A</text>
+    <text fontname="verdana" fontsize="16" fontcolor="#000000" alpha="1" x="430" y="180" starttime="1000" endtime="0">Answer B</text>
+    <text fontname="verdana" fontsize="16" fontcolor="#000000" alpha="1" x="160" y="210" starttime="1500" endtime="0">Answer C</text>
+    <text fontname="verdana" fontsize="16" fontcolor="#000000" alpha="1" x="430" y="210" starttime="2000" endtime="0">Answer D</text>
+
+    <answerarea id="1" x="160" y="180" width="100" height="25" />
+    <answerarea id="2" x="430" y="180" width="100" height="25" />
+    <answerarea id="3" x="160" y="210" width="100" height="25" />
+    <answerarea id="4" x="430" y="210" width="100" height="25" />
+    <correctanswer id="1"/>
+    <scorelocation fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="600" y="400" backgroundcolor="#f0f0f0" backgroundalpha="0.5"/>
+    <correctlocation fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="100" y="450" backgroundcolor="#f0f0f0" backgroundalpha="0.5" />
+    <feedback>
+
+        <scrollpane x="0" y="400" width="590" height="200" backgroundcolor="#f0f0f0" backgroundalpha="0.5">
+        <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="100" y="100">Feedback Text</text>
+        </scrollpane>
+
+    <text x="500" y="500" onclick="2"> Next Slide!</text>
+    </feedback>
+
+    <!-- SafetyNet First Aid Logo -->
+    <image path="images/SNFA.png" x="492" y="509" width="300" height="90" starttime="0" endtime="0"/>
+
+  </quizslide>
+
+
+  <quizslide id="15" backgroundcolor="#ffffff" duration="10000" nextslideid="16">
+
+
+    <text fontname="Arial" fontsize="18" fontcolor="#000000" alpha="1.0" x="160" y="150" starttime="0" endtime="10">"So why don't you work first time?"</text>
+    <text fontname="verdana" fontsize="16" fontcolor="#000000" alpha="1" x="160" y="180" starttime="10000" endtime="0">Answer A</text>
+    <text fontname="verdana" fontsize="16" fontcolor="#000000" alpha="1" x="430" y="180" starttime="10000" endtime="0">Answer B</text>
+    <text fontname="verdana" fontsize="16" fontcolor="#000000" alpha="1" x="160" y="210" starttime="10000" endtime="0">Answer C</text>
+    <text fontname="verdana" fontsize="16" fontcolor="#000000" alpha="1" x="430" y="210" starttime="10000" endtime="0">Answer D</text>
+
+    <answerarea id="1" x="160" y="180" width="100" height="25" />
+    <answerarea id="2" x="430" y="180" width="100" height="25" />
+    <answerarea id="3" x="160" y="210" width="100" height="25" />
+    <answerarea id="4" x="430" y="210" width="100" height="25" />
+    <correctanswer id="1"/>
+    <scorelocation fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="600" y="400" backgroundcolor="#f0f0f0" backgroundalpha="0.5"/>
+    <correctlocation fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="100" y="450" backgroundcolor="#f0f0f0" backgroundalpha="0.5" />
+    <feedback>
+
+        <scrollpane x="0" y="400" width="590" height="200" backgroundcolor="#f0f0f0" backgroundalpha="0.5">
+        <text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="100" y="100">Feedback Text</text>
+        </scrollpane>
+
+    <text x="500" y="500" onclick="2"> Next Slide!</text>
+    </feedback>
+
+
+
+  </quizslide>
+
+
+
+
+
+
+<quizslide id="16" backgroundcolor="#ffffff" duration="10000" nextslideid="1" previewpath="Slide16.jpg">
+<text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="100" y="100" starttime="0" endtime="10">Hello World</text>
+<text fontname="verdana" fontsize="10.5" fontcolor="#aaff12" alpha="0.23" x="100" y="90" starttime="10000" endtime="15000"></text>
+<audio path="Yesterday.mp3" x="100" y="100" starttime="0" endtime="10000"/>
+
+<answerarea id="1" x="200" y="200" width="200" height="50" />
+<answerarea id="2" x="200" y="200" width="200" height="50" />
+<answerarea id="3" x="200" y="200" width="200" height="50" />
+<answerarea id="4" x="200" y="200" width="200" height="50" />
+<correctanswer id="1"/>
+<scorelocation fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="600" y="400" backgroundcolor="#f0f0f0" backgroundalpha="0.5"/>
+<correctlocation fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="650" y="400" backgroundcolor="#f0f0f0" backgroundalpha="0.5" />
+<feedback>
+<scrollpane x="50" y="50" width="400" height="400" backgroundcolor="#f0f0f0" backgroundalpha="0.5">
+<text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="100" y="100">Feedback Text</text>
+<audio path="Yesterday.mp3" x="100" y="100" starttime="0" endtime="10000"/>
+</scrollpane>
+<text x="500" y="500" onclick="2"> Next Slide!</text>
+<text fontname="Arial" fontsize="12" fontcolor="#000000" alpha="1.0" x="100" y="100">Wrong!</text>
+</feedback>
+</quizslide>
+
+
+<section id="1" name="Primary Survey">
+<section_slide id="2" name="DR ABC"/>
+<section_slide id="3" name="Breathing"/>
+</section>
+<section id="4" name="Wounds">
+<section_slide id="5" name="Minor Laceration"/>
+<section_slide id="6" name="Minor Laceration (Video)"/>
+</section>
+<section id="7" name="CPR">
+<section_slide id="8" name="Introduction"/>
+<section_slide id="9" name="Compressions"/>
+<section_slide id="10" name="Rescue Breaths"/>
+<section_slide id="11" name="AED"/>
+<section_slide id="12" name="Medical Gasses"/>
+</section>
+<section id="13" name="Sample Quiz">
+<section_slide id="14" name="Quiz Qu 1"/>
+<section_slide id="15" name="Quiz Qu 2"/>
+<section_slide id="16" name="Quiz Qu 3"/>
+</section>
+
+</slideshow>

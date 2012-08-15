@@ -1,0 +1,176 @@
+<class-diagram version="0.9.86" automaticImage="JPEG" icons="true" always-add-relationships="false" 
+  generalizations="false" realizations="true" associations="true" dependencies="false" nesting-relationships="false">  
+  <class corner="BOTTOM_RIGHT" language="java" name="cfss.org.safetynet.SafetyNet" project="SafetyNet" 
+    file="/SafetyNet/src/cfss/org/safetynet/SafetyNet.java" binary="false">    
+    <position x="437" y="754" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="cfss.org.safetynet.gui.Gui" project="SafetyNet" 
+    file="/SafetyNet/src/cfss/org/safetynet/gui/Gui.java" binary="false">    
+    <position x="105" y="274" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="cfss.org.safetynet.retrieve.LocalXMLRetriever" project="SafetyNet" 
+    file="/SafetyNet/src/cfss/org/safetynet/retrieve/LocalXMLRetriever.java" binary="false">    
+    <position x="149" y="835" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="cfss.org.safetynet.retrieve.RemoteFileRetriever" 
+    project="SafetyNet" file="/SafetyNet/src/cfss/org/safetynet/retrieve/RemoteFileRetriever.java" binary="false">    
+    <position x="279" y="1010" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="cfss.org.xmlstructure.SlideShow" project="SafetyNet" 
+    file="/SafetyNet/src/cfss/org/xmlstructure/SlideShow.java" binary="false">    
+    <position x="772" y="366" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="cfss.org.safetynet.Parser" project="SafetyNet" 
+    file="/SafetyNet/src/cfss/org/safetynet/Parser.java" binary="false">    
+    <position x="413" y="149" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="cfss.org.safetynet.Config" project="SafetyNet" 
+    file="/SafetyNet/src/cfss/org/safetynet/Config.java" binary="false">    
+    <position x="830" y="-22" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="cfss.org.safetynet.gui.ShimmyPane" project="SafetyNet" 
+    file="/SafetyNet/src/cfss/org/safetynet/gui/ShimmyPane.java" binary="false">    
+    <position x="1073" y="46" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="cfss.org.safetynet.Engine" project="SafetyNet" 
+    file="/SafetyNet/src/cfss/org/safetynet/Engine.java" binary="false">    
+    <position x="761" y="772" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="cfss.org.safetynet.SlideRenderer" project="SafetyNet" 
+    file="/SafetyNet/src/cfss/org/safetynet/SlideRenderer.java" binary="false">    
+    <position x="1060" y="748" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class corner="BOTTOM_RIGHT" language="java" name="cfss.org.safetynet.QuizHandler" project="SafetyNet" 
+    file="/SafetyNet/src/cfss/org/safetynet/QuizHandler.java" binary="false">    
+    <position x="1320" y="-33" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <association>    
+    <source project="SafetyNet" name="cfss.org.safetynet.Engine" file="/SafetyNet/src/cfss/org/safetynet/Engine.java" 
+      binary="false" navigable="false">      
+      <attribute name="slideRenderer"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="SafetyNet" name="cfss.org.safetynet.SlideRenderer" 
+      file="/SafetyNet/src/cfss/org/safetynet/SlideRenderer.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="SafetyNet" name="cfss.org.safetynet.SafetyNet" 
+      file="/SafetyNet/src/cfss/org/safetynet/SafetyNet.java" binary="false" navigable="false">      
+      <attribute name="rxr"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="SafetyNet" name="cfss.org.safetynet.retrieve.RemoteFileRetriever" 
+      file="/SafetyNet/src/cfss/org/safetynet/retrieve/RemoteFileRetriever.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="SafetyNet" name="cfss.org.safetynet.SafetyNet" 
+      file="/SafetyNet/src/cfss/org/safetynet/SafetyNet.java" binary="false" navigable="false">      
+      <attribute name="gui"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="SafetyNet" name="cfss.org.safetynet.gui.Gui" file="/SafetyNet/src/cfss/org/safetynet/gui/Gui.java" 
+      binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="SafetyNet" name="cfss.org.safetynet.SafetyNet" 
+      file="/SafetyNet/src/cfss/org/safetynet/SafetyNet.java" binary="false" navigable="false">      
+      <attribute name="slideShow"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="SafetyNet" name="cfss.org.xmlstructure.SlideShow" 
+      file="/SafetyNet/src/cfss/org/xmlstructure/SlideShow.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="SafetyNet" name="cfss.org.safetynet.SafetyNet" 
+      file="/SafetyNet/src/cfss/org/safetynet/SafetyNet.java" binary="false" navigable="false">      
+      <attribute name="lxr"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="SafetyNet" name="cfss.org.safetynet.retrieve.LocalXMLRetriever" 
+      file="/SafetyNet/src/cfss/org/safetynet/retrieve/LocalXMLRetriever.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="SafetyNet" name="cfss.org.safetynet.Parser" file="/SafetyNet/src/cfss/org/safetynet/Parser.java" 
+      binary="false" navigable="false">      
+      <attribute name="slideShow"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="SafetyNet" name="cfss.org.xmlstructure.SlideShow" 
+      file="/SafetyNet/src/cfss/org/xmlstructure/SlideShow.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="SafetyNet" name="cfss.org.safetynet.SafetyNet" 
+      file="/SafetyNet/src/cfss/org/safetynet/SafetyNet.java" binary="false" navigable="false">      
+      <attribute name="engine"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="SafetyNet" name="cfss.org.safetynet.Engine" file="/SafetyNet/src/cfss/org/safetynet/Engine.java" 
+      binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <source project="SafetyNet" name="cfss.org.safetynet.SafetyNet" 
+      file="/SafetyNet/src/cfss/org/safetynet/SafetyNet.java" binary="false" navigable="false">      
+      <attribute name="parser"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="SafetyNet" name="cfss.org.safetynet.Parser" file="/SafetyNet/src/cfss/org/safetynet/Parser.java" 
+      binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" package="true" initial-value="false" signature="true" visibility="true">    
+    <attributes public="true" package="false" protected="true" private="true"/>    
+    <operations public="true" package="false" protected="false" private="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
